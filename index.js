@@ -3,7 +3,7 @@ var readlineSync = require('readline-sync');
 var username = readlineSync.question('Enter Your Name: ');
 
 
-console.log("Hi ",chalk.green(username))
+console.log("Hi ",chalk.blue(username))
 console.log(chalk.red(' Lets see how well you know Manav.'));
 console.log('Points:  Correct: +3   Incorrect: -1')
 console.log('');
@@ -18,7 +18,7 @@ var questions = [
    {question: `What is Manav's Profession?`,A: 'Programmer', B:'Marketing Executive', C:'Data Scientist',answer: 'a'},
    {question: `In the following seasons which one is Manav's favorite?`,A: 'Summer', B:
    'Winter', C:'Monsoon',answer: 'b'},
-   {question: `Manav is a huge supporter of..`,A: 'MS Dhoni', B:
+   {question: `Manav is a huge supporter of?`,A: 'MS Dhoni', B:
    'Gautam Gambhir', C:'Rohit Sharma',answer: 'c'},
 
  ];
